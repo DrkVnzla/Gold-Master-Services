@@ -8,11 +8,10 @@
     <title>Gold Master Services</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
         <div class="container">
-            <h1>Eternal Warriors</h1>
+            <h1>Gold Master Services</h1>
             <nav>
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
@@ -27,9 +26,8 @@
     </header>
     <main>
         <section id="inicio">
-            <div class="overlay"></div>
             <div class="container">
-                <h2>Bienvenido a Eternal Warriors</h2>
+                <h2>Bienvenido a Gold Master Services</h2>
                 <p>Ofrecemos los mejores servicios para tus necesidades técnicas y de desarrollo web.</p>
                 <button>Contrata nuestros servicios</button>
             </div>
@@ -74,15 +72,15 @@
         <section id="contacto">
             <div class="container">
                 <h2>Contacto</h2>
-                <form>
+                <form action="https://formspree.io/YOUREMAIL" method="POST">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre">
+                    <input type="text" id="nombre" name="nombre" required>
                     
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                     
                     <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje"></textarea>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
                     
                     <button type="submit">Enviar</button>
                 </form>
@@ -91,7 +89,7 @@
     </main>
     <footer>
         <div class="container">
-            <p>&copy; 2024 Eternal Warriors. Todos los derechos reservados.</p>
+            <p>&copy; 2024 Gold Master Services. Todos los derechos reservados.</p>
         </div>
     </footer>
 </body>
